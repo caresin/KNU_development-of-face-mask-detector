@@ -1,1 +1,0 @@
-darknet detector demo obj.data yolov3.cfg yolov3_final.weights
