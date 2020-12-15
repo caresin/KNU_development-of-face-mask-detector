@@ -12,6 +12,7 @@
   <you need WebCam for input video, if your device do not have WebCam, You can use DroidCam>
    -  DroidCam : https://www.dev47apps.com/
 * How to execute  
-  0. using 'git lfs pull' , you must 'git lfs pull'. (anyway. you must put 'yolov3_final.weights' file in 'build' directory)
-  1. open terminal, and go to 'build' directory 
-  2. type 'darknet detector demo obj.data yolov3.cfg yolov3_final.weights' to execute detector
+  1. Clone this repository. 'build/yolov3_final.weights' file has uploaded by 'git lfs'. so you must pull by 'git lfs pull', or download directly
+  2. Open terminal, and go to 'build' directory 
+  3. Prepare your WebCam.
+  4. You can execute detector by 'darknet detector demo obj.data yolov3.cfg yolov3_final.weights'
