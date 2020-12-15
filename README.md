@@ -9,7 +9,7 @@
     - check your compatible version : https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
   - cuDNN : https://developer.nvidia.com/cuDNN
  
-  <you need WebCam for input video, if your device do not have WebCam, You can use DroidCam>
+  <you need WebCam for input video, if your device does not have WebCam, You can use DroidCam>
    -  DroidCam : https://www.dev47apps.com/
 * How to execute  
   1. Clone this repository. 'build/yolov3_final.weights' file has uploaded by 'git lfs'. so you must pull by 'git lfs pull', or download directly
