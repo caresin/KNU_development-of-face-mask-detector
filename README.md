@@ -15,4 +15,4 @@
   1. Clone this repository. 'build/yolov3_final.weights' file has uploaded by 'git lfs'. so you must pull by 'git lfs pull', or download directly
   2. Open terminal, and go to 'build' directory 
   3. Prepare your WebCam.
-  4. You can execute detector by 'darknet detector demo obj.data yolov3.cfg yolov3_final.weights'
+  4. Execute detector by 'darknet detector demo obj.data yolov3.cfg yolov3_final.weights'
