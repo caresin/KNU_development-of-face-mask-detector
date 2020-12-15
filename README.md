@@ -4,6 +4,7 @@
   - Yolo : https://pjreddie.com/darknet/yolo/
     - AlexeyAB Darknet : https://github.com/AlexeyAB
 * dependencies 
+  - GPU
   - OpenCV : https://opencv.org/
   - Nvidia Cuda : https://developer.nvidia.com/cuda-toolkit
     - check your compatible version : https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
