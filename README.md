@@ -24,7 +24,7 @@
     - 'yolo_cpp_dll', you can use pre-compiled file in 'lib/GPU' or 'lib/NO_GPU'
   - execute 'yolo_console_dll.exe'
     - in the CMD you can give arguments 
-       - "yolo_console_dll <threshhold(0~1)> <log_file location>"
+       - "yolo_console_dll <threshhold(0~1)> <log_file location>", default log_file is "result.txt"
        - "yolo_console_dll <threshhold(0~1)>"
   
 * How to compile 'src/yolo_console_dll.cpp'  
