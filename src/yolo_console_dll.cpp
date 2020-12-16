@@ -335,7 +335,7 @@ int main(int argc, char* argv[])
     float thresh = (argc > 1) ? std::stof(argv[1]) : 0.2;
     if (argc > 2) {
         thresh = std::stof(argv[1]);
-        log_file = std::stof(argv[2]);
+        log_file = argv[2];
     }
 #ifdef TRACK_OPTFLOW    // for slow GPU
     detection_sync = false;
