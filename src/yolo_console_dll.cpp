@@ -337,11 +337,6 @@ int main(int argc, char* argv[])
         thresh = std::stof(argv[1]);
         log_file = std::stof(argv[2]);
     }
-    if (argc > 3) {
-        thresh = std::stof(argv[1]);
-        log_file = std::stof(argv[2]);
-        out_videofile = std::stof(argv[3]);
-    }
 #ifdef TRACK_OPTFLOW    // for slow GPU
     detection_sync = false;
     Tracker_optflow tracker_flow;
