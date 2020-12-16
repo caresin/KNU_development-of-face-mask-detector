@@ -232,16 +232,16 @@ void draw_boxes(cv::Mat mat_img, std::vector<bbox_t> result_vec, std::vector<std
     }
     if (isFace  && (isNose || isMouth)) {
         std::string detected_str = "Non mask detected!";
-        /*for (int i = 1; i > 0; i--) {
-            Beep(392,1000);
-        }*/
         FILE* fp = fopen(log_file.c_str(), "a");
         time_t time2 = time(NULL);
         struct tm* pLocal1 = localtime(&time1);
         struct tm* pLocal2 = localtime(&time2);
         if (time2 - time1 >= 4) {
             time1 = time2;
-            printf("\a");
+            //printf("\a");
+            for (int i = 1; i > 0; i--) {
+                Beep(392,1000);
+            }
             fprintf(fp, "<%04d-%02d-%02dT%02d:%02d:%02d> Non-Mask detected\n",
                 pLocal2->tm_year + 1900, pLocal2->tm_mon + 1, pLocal2->tm_mday,
                 pLocal2->tm_hour, pLocal2->tm_min, pLocal2->tm_sec);
