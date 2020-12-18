@@ -2,7 +2,7 @@
 
 * reference
   - Yolo : https://pjreddie.com/darknet/yolo/
-    - AlexeyAB Darknet : https://github.com/AlexeyAB
+    - AlexeyAB Darknet : https://github.com/AlexeyAB    
     
 * dependencies 
   1. OS : Windows
@@ -31,3 +31,5 @@
   - this code is Revision of 'darknet/src/yolo_console_dll.cpp' in 'AlexeyAB Darknet'
   - convert that code, and build with Visual Studio Solution 'darknet/build/darknet/yolo_console_dll.sln' in 'AlexeyAB Darknet'
   - Please refer to 'https://github.com/AlexeyAB/darknet' for detailed information
+
+* Note 'execute_environment/yolov3_final.weights' is 'git lfs' target file, you need pull with 'git lfs pull' command
