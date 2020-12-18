@@ -19,8 +19,8 @@
         
 * How to execute
   - put the followings in the same directory
-    - all contents of 'build'
-    - all contents of 'execute_environment'
+    - all contents of 'build' directory
+    - all contents of 'execute_environment' directory
     - 'yolo_cpp_dll', you can use pre-compiled library in 'lib/GPU' or 'lib/NO_GPU'
   - execute 'yolo_console_dll.exe'
     - in the CMD you can give arguments 
